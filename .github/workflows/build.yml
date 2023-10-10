@@ -1,1 +1,7 @@
 on: push
+jobs:   
+    fisrt-job:
+        runs-on: linux-latest
+        steps:
+            - run: node --vesrion
+            - run: npm --vesrion
