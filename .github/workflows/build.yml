@@ -3,5 +3,5 @@ jobs:
     fisrt-job:
         runs-on: ubuntu-latest
         steps:
-            - run: node --vesrion
-            - run: npm --vesrion
+            - run: node --version
+            - run: npm --version
